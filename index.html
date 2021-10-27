@@ -3,16 +3,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 <head>
+ 
 <title>Hakkımda</title>
+<style type="text/css">
+   .link-container a:hover {
+        background: #f8f8f8;
+    }
+    p{
+        font-family:Tahoma;
+    }
+    .yaslama{
+      float: right;
+      width: 90px;
+      height: 80px;
+      padding: 10px;
+      border: 2px solid #dedede;
+      margin: 15px;
+    }
+</style>
 </head>
 <body>
 
 <h1>Hanne Zeynep Durhat</h1><hr><!--Başlık-->
 
 <h2>Hakkımda</h2><!--Başlık-->
+
 <p>Merhaba ben Hanne Zeynep Durhat. İstanbul'da yaşıyorum. Yazılım dünyasını seviyorum, işimi zevkle yapıyorum.
     Bazen sıkıldığım zamanlar olmuyor değil tabi.
 </p>
+
+
+
 <h2>Bazı Programlama Dilleri</h2>
 <ul style="list-style-type:square"><!--Sırasız liste yapıp programlama dilleri listelendi. -->
     <li>C#</li>
@@ -22,23 +43,73 @@
     <li>Php</li>
     <li>C++</li>
 </ul> 
-<img width='80' height='80'src="C:\Users\User\OneDrive\Masaüstü\Gorseller\javascript.png">
-<img width='80' height='80'src="C:\Users\User\OneDrive\Masaüstü\Gorseller\java.png">
-<img width='80' height='80'src="C:\Users\User\OneDrive\Masaüstü\Gorseller\python.jpg">
+
+    <img width="80px" height="80px" src="javascript.png" />
+    <img width="80px" height="80px" src="java.png"/>
+    <img width="80px" height="80px"src="python.jpg"/>
+
+
 <p>Kitap okumayı da severim. Favori kitabım <i>Sefiller</i> dir. Okumayı en çok istediğim kitap <i>
 Sharlock Holmes</i> serisi.
-<h4>Kitap alışverişi yaptığım siteler:</h4>
-<ol type="I"><!--Kitap satışı yapan siteleri sıralı liste halinde gösteridi ve basılınca yazılı olan
-siteye yönlendiriyor.-->
-    <li><a href="https://www.kitapyurdu.com/">Kitapyurdu</a></li>
-    <li><a href="https://www.dr.com.tr/">D&R</a></li>
-    <li><a href="https://www.babil.com/">Babil</a></li>
-</ol>
 
-</p>
-Butona tıklayın ve seçtiğim şarkıyı dinleyin :)<br>
+<h4 style="color: blueviolet;">Kitap alışverişi yaptığım siteler:</h4>
+
+<div  .class="link-container">
+    <ol type="I"><!--Kitap satışı yapan siteleri sıralı liste halinde gösteridi ve basılınca yazılı olan
+    siteye yönlendiriyor.-->
+        <li><a href="https://www.kitapyurdu.com/">Kitapyurdu</a></li>
+        <li><a href="https://www.dr.com.tr/">D&R</a></li>
+        <li><a href="https://www.babil.com/">Babil</a></li>
+    </ol>
+</div>
+
+
+    <img src="babil.png"  alt="babil.com" style="width:135px;height:42px;"/>
+
+<p>Birkaç tane okuduğum kitapları ve izlediğim dizi ve flimlerden örnek vereyim.</p>
+<h4 style="color: blueviolet;">Okuduğum Kitaplar</h4>
+<ul style="list-style-type:square;">
+   <li>Harry Potter</li>
+   <a href="https://www.goodreads.com/search?utf8=%E2%9C%93&query=Die+Verwandlung"><li>Dönüşüm</li></a> 
+    <li>Uçurtma Avcısı</li>
+</ul>
+
+<figure>
+    
+    <table>
+        <tr>
+            <td style="font-variant: small-caps;">Harry Potter</td>
+            <td style="font-variant: small-caps;">Uçurtma Avcısı</td>
+        </tr>
+        <tr>
+            <td><img src="harrypotter.jpg" title="Harry Potter"/></td>
+            <td><img src="ucurtmaavcisi.jpg" title="Uçurtma Avcısı"/></td>
+        </tr>
+    </table>
+   
+ 
+</figure>
+
+
+<h4 style="color: blueviolet;">İzlediğim Dizi ve Filmler</h4>
+<ul style="list-style-type:square;">
+ <a href="https://www.imdb.com/title/tt0454921/?ref_=tt_sims_tt_i_1"><li>Harry Potter</li></a>
+ <li>Umudunu Kaybetme</li>
+ <li>Ölü Ozanlar Derneği</li>
+</ul>
+
+<figure>
+    <figcaption style="font-variant: small-caps;">Umudunu Kaybetme</figcaption>
+    <a href="https://www.yandex.com.tr/search/?text=umudunu+kaybetme+izle&clid=2411726&lr=106125">
+    <img src="umudunuKaybetme.jpg" title="Umudunu Kaybetme" /></a>
+</figure>
+
+<p>Butona tıklayın ve seçtiğim şarkıyı dinleyin :)</p><br><br>
 <button><a href="https://www.youtube.com/watch?v=GtEvysh1654">BAS</a></button>
 <!--Butona basılınca youtube
 sayfasına yönlendiriliyor.-->
+<br/><br/><br/>
+<img src="python.jpg" alt="python programlama">
+
 </body>
 </html>
